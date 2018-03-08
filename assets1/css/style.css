@@ -1,0 +1,112 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-image: url("/annietanbeehoon.Basic-Portfolio/assets/images/circles-light.png");
+}
+
+
+header {
+    height: 90px;
+    margin: 0px 0px 0px 0px;
+    border: 0px 0px 0px 5px;
+    padding: 0;
+    background-color: #ffffff;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: ridge;
+    border-color: #cccccc;
+}
+#container {
+    width: 960px;
+    overflow: hidden;
+}
+
+#name {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    font: bold;
+    width: 20%;
+    text-align: center;
+    padding: 28px;
+    border: 0;
+    margin: 0px 0px 0px 90px;
+    float: left;
+ }
+
+#nav {
+    list-style-type: none;
+    margin: 0 auto;
+}
+/* cannot get it to align / flush to content */
+
+li {
+    float: right;
+    padding: 30px;
+    margin-left: -40;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #777777;
+    text-align: right;
+}
+
+#content {
+    width: 960px;
+    height: 950px;
+    margin: 0px 0px 0px 90px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+h1 {
+    color: #4aaaa5;
+    padding: 20px;
+    border: 5px;
+    border-bottom-style: groove;
+    margin-left: 80px;
+}
+
+.portfolio-img {
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+p {
+    line-height: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+   
+footer {
+    font-size: 8;
+    color: #cccccc;
+    text-align: center;
+    height: 40px;
+    margin: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    padding: 0;
+    background-color: #777777;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: ridge;
+    border-color: #4aaaa5;
+}
+

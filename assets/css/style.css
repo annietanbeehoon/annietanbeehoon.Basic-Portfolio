@@ -9,9 +9,9 @@ body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    background-image: url("/annietanbeehoon.Basic-Portfolio/assets/images/circles-light.png");
+    background-image: url("images/circles-light.png");
+    background: linear-gradient(to right, grey , white)
 }
-
 
 header {
     height: 90px;
@@ -53,7 +53,7 @@ header {
 li {
     float: right;
     padding: 30px;
-    margin-left: -40;
+    margin-left: -30;
     border: none;
 }
 
@@ -94,19 +94,156 @@ p {
     margin-right: 80px;
 }
    
-footer {
-    font-size: 8;
+.footer{
+    width: 100%;
+    font-size: 5;
     color: #cccccc;
     text-align: center;
     height: 40px;
-    margin: 0px 0px 0px 0px;
-    border: 0px 0px 0px 0px;
-    padding: 0;
     background-color: #777777;
     border-bottom-style: none;
     border-left-style: none;
     border-right-style: none;
     border-top-style: ridge;
     border-color: #4aaaa5;
+    position:fixed;
+    bottom:0px;
 }
 
+#box {
+    width: 960px;
+    height: 600px;
+    margin-left: 80px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.photo-1 {
+    max-height: 300px;
+    max-width: 250px;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.photo-2 {
+    max-height: 300px;
+    max-width: 250px;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+/*
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}*/
+
+#One #Two #Three #Four {
+    width: 220px;
+    height: 15px;
+    margin: none;
+}
+
+#One {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 230px;
+    height: 15px;
+    border: 0px 0px 0px 80px;
+    margin: none;
+    padding: 10px;
+    top: 60%;
+}
+
+#Two {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 230px;
+    height: 15px;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: none;
+    margin: none;
+    padding: 10px;
+    float: left;
+}
+
+
+.photo-3 {
+    max-height: 300px;
+    max-width: 250px;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.photo-4 {
+    max-height: 300px;
+    max-width: 250px;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#Three {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 230px;
+    height: 15px;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: none;
+    float: left;
+    padding: 10px;
+}
+#Four {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 230px;
+    height: 20px;
+    float: left;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+}
+#Third {
+    max-width: 960px;
+    max-height: 600px;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+.photo-5 {
+    max-height: 300px;
+    max-width: 250px;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+#Five {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 230px;
+    height: 15px;
+    float: left;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+}
